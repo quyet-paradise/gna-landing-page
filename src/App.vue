@@ -8,7 +8,7 @@
 import { defineAsyncComponent } from 'vue'
 
 const Header = defineAsyncComponent(() => import('@/components/header/Header.vue'))
-const Footer = defineAsyncComponent(() => import('@/components/footer/footer.vue'))
+const Footer = defineAsyncComponent(() => import('@/components/footer/Footer.vue'))
 </script>
 
 <style scoped lang="scss">
