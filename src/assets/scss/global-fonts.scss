@@ -55,3 +55,43 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Vinmec';
+    src: url('@/assets/fonts/vinmec/VINMEC-REGULAR.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vinmec';
+    src: url('@/assets/fonts/vinmec/VINMEC-MEDIUM.TTF') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vinmec';
+    src: url('@/assets/fonts/vinmec/VINMEC-BOLD.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vinmec';
+    src: url('@/assets/fonts/vinmec/VINMEC-HEAVY.TTF') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vinmec';
+    src: url('@/assets/fonts/vinmec/VINMEC-ITALIC.TTF') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
