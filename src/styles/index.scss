@@ -4,7 +4,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    --dls-max-width: 1216px;
+    --dls-max-width: 1250px;
 
     --dls-xs-breakpoint: 0;
     --dls-sm-breakpoint: 576px;
@@ -12,6 +12,12 @@
     --dls-lg-breakpoint: 992px;
     --dls-xl-breakpoint: 1200px;
     --dls-xxl-breakpoint: 1400px;
+
+    --dls-primary-color: #007042;
+    --dls-secondary-color: #04151F;
+    --dls-third-color: #F15B29;
+    --dls-white-color: #ffffff;
+    --scroll-bar-color: #6C757D;
 }
 
 * {

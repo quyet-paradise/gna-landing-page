@@ -1,6 +1,12 @@
 <template>
-    <div>Service content</div>
+    <div class="service">
+        <div>Dịch vụ</div>
+    </div>
 </template>
 
 <script setup lang="ts"></script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.service {
+    min-height: 100vh;
+}
+</style>

@@ -1,13 +1,13 @@
 <template>
-    <div class="homepage">
-        <div>Trang chủ</div>
+    <div class="project">
+        <div>Dự án</div>
     </div>
 </template>
 
 <script setup lang="ts">
 </script>
 <style scoped lang="scss">
-.homepage {
+.project {
     min-height: 100vh;
 }
 </style>

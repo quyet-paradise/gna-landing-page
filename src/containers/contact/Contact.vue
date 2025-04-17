@@ -1,13 +1,13 @@
 <template>
-    <div class="homepage">
-        <div>Trang chủ</div>
+    <div class="contact">
+        <div>Liên hệ</div>
     </div>
 </template>
 
 <script setup lang="ts">
 </script>
 <style scoped lang="scss">
-.homepage {
+.contact {
     min-height: 100vh;
 }
 </style>
