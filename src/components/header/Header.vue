@@ -7,11 +7,11 @@
 
             <div class="toolbar">
                 <div class="toolbar__menubar">
-                    <a class="toolbar__menubar--item" href="javascript:void()" @click="goToPage(PATH.HOME)">Trang chủ</a>
-                    <a class="toolbar__menubar--item" href="javascript:void()" @click="goToPage(PATH.INTRODUCE)">Giới thiệu</a>
-                    <a class="toolbar__menubar--item" href="javascript:void()" @click="goToPage(PATH.SERVICE)">Dịch vụ</a>
-                    <a class="toolbar__menubar--item" href="javascript:void()" @click="goToPage(PATH.PROJECT)">Dự án</a>
-                    <a class="toolbar__menubar--item" href="javascript:void()" @click="goToPage(PATH.CONTACT)">Liên hệ</a>
+                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.HOME)">Trang chủ</a>
+                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.INTRODUCE)">Giới thiệu</a>
+                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.SERVICE)">Dịch vụ</a>
+                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.PROJECT)">Dự án</a>
+                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.CONTACT)">Liên hệ</a>
                 </div>
 
                 <div class="toolbar__contact">

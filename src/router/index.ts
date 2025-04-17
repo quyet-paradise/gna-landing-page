@@ -11,7 +11,7 @@ const router = createRouter({
     }
 });
 
-const DEFAULT_TITLE = "GNA"
+const DEFAULT_TITLE = "ThicongdenLED247"
 router.beforeEach((to, _, next) => { // Removed unused 'from' parameter
     document.title = `${DEFAULT_TITLE}${to.meta?.title || ""}`
     next()
