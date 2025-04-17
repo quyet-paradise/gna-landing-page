@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 import 'vue3-carousel/carousel.css'
-import { Carousel, Slide, Navigation, Pagination } from 'vue3-carousel'
+import { Carousel, Slide, Navigation, Pagination, SlideEffect } from 'vue3-carousel'
 import { ref } from 'vue'
 
 const currentSlide = ref(0)
@@ -26,7 +26,7 @@ const currentSlide = ref(0)
 const galleryConfig = {
   itemsToShow: 1,
   wrapAround: true,
-  slideEffect: 'fade',
+  slideEffect: 'fade' as SlideEffect,
   mouseDrag: false,
   touchDrag: false,
   height: 600,
