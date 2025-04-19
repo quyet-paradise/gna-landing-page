@@ -38,7 +38,7 @@
 .introduce {
     max-width: var(--dls-max-width);
     margin: 0 auto;
-    padding: 16px 0;
+    padding: 64px 0;
     line-height: 1.5;
 
     &--title {

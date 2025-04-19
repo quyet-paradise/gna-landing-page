@@ -2,10 +2,10 @@
     <div class="banner">
         <Carousel id="gallery" v-bind="galleryConfig" v-model="currentSlide">
             <Slide >
-                <img src="/banner/banner-1.jpg" alt="banner 1" class="gallery-image" loading="lazy" />
+                <img src="/banner/banner-ngoai-that-led.png" alt="banner-ngoai-that-led" class="gallery-image" />
             </Slide>
             <Slide >
-                <img src="/banner/banner-2.jpg" alt="banner 2" class="gallery-image" loading="lazy" />
+                <img src="/banner/banner-noi-that-led.png" alt="banner-noi-that-led" class="gallery-image" />
             </Slide>
 
             <template #addons>
@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 import 'vue3-carousel/carousel.css'
-import { Carousel, Slide, Navigation, Pagination, SlideEffect } from 'vue3-carousel'
+import { Carousel, Slide, Navigation, Pagination } from 'vue3-carousel'
 import { ref } from 'vue'
 
 const currentSlide = ref(0)
@@ -26,7 +26,6 @@ const currentSlide = ref(0)
 const galleryConfig = {
   itemsToShow: 1,
   wrapAround: true,
-  slideEffect: 'fade' as SlideEffect,
   mouseDrag: false,
   touchDrag: false,
   height: 600,
@@ -37,12 +36,13 @@ const galleryConfig = {
 .carousel {
   --vc-nav-background: rgba(255, 255, 255, 0.7);
   --vc-nav-border-radius: 100%;
+  --vc-carousel-height: inherit !important;
 }
 
 img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 </style>
 

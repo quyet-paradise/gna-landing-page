@@ -62,12 +62,15 @@ const goToPage = (routePath: string) => {
 
 <style scoped lang="scss">
 .header-inner {
-    background-color: blanchedalmond;
+    background-color: var(--dls-white-color);
     width: 100%;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 9999;
+    box-shadow: 0 4px 2px -2px gray;
+    -moz-box-shadow: 0 4px 2px -2px gray;
+    -webkit-box-shadow: 0 4px 2px -2px gray;
 
     .header {
         max-width: var(--dls-max-width);
@@ -121,6 +124,10 @@ const goToPage = (routePath: string) => {
                     img {
                         width: 20px;
                         height: 20px;
+                    }
+
+                    &:hover {
+                        opacity: 0.7;
                     }
                 }
             }
