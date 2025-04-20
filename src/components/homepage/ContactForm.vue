@@ -2,7 +2,7 @@
     <div class="contact--inner">
         <div class="contact">
             <div class="contact--text">
-                <div class="title">Bạn muốn tư vấn lắp đạt đèn LED?</div>
+                <div class="title">Bạn muốn tư vấn lắp đặt đèn LED?</div>
                 <div class="subtitle">Đừng ngại liên hệ với chúng tôi →</div>
             </div>
 

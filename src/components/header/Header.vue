@@ -5,30 +5,27 @@
                 <img src="/logos/thicongdenled_logo.png" alt="logo" id="ledlogo">
             </a>
 
-            <div class="toolbar">
-                <div class="toolbar__menubar">
-                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.HOME)">Trang chủ</a>
-                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.INTRODUCE)">Giới thiệu</a>
-                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.SERVICE)">Dịch vụ</a>
-                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.PROJECT)">Dự án</a>
-                    <a class="toolbar__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.CONTACT)">Liên hệ</a>
-                </div>
-
-                <div class="toolbar__contact">
-                    <a class="toolbar__contact--item" target="_blank" href="https://www.facebook.com/profile.php?id=61568493685782">
-                        <img src="@/assets/images/ico/ico-fb.svg" alt="fb">
-                    </a>
-
-                    <a class="toolbar__contact--item" href="mailto:thicongdenled247.com.vn">
-                        <img src="@/assets/images/ico/ico-email.svg" alt="email">
-                    </a>
-
-                    <a class="toolbar__contact--item" href="tel:+84332937600">
-                        <img src="@/assets/images/ico/ico-phone.svg" alt="phone">
-                    </a>
-                </div>
+            <div class="header__menubar">
+                <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.HOME)">TRANG CHỦ</a>
+                <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.INTRODUCE)">GIỚI THIỆU</a>
+                <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.SERVICE)">DỊCH VỤ</a>
+                <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.PROJECT)">DỰ ÁN</a>
+                <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.CONTACT)">LIÊN HỆ</a>
             </div>
 
+            <div class="header__contact">
+                <a class="header__contact--item" target="_blank" href="https://www.facebook.com/profile.php?id=61568493685782">
+                    <img src="@/assets/images/ico/ico-fb.svg" alt="fb">
+                </a>
+
+                <a class="header__contact--item" href="mailto:thicongdenled247.com.vn">
+                    <img src="@/assets/images/ico/ico-email.svg" alt="email">
+                </a>
+
+                <a class="header__contact--item" href="tel:+84332937600">
+                    <img src="@/assets/images/ico/ico-phone.svg" alt="phone">
+                </a>
+            </div>
         </div>
     </div>
 </template>
@@ -76,7 +73,7 @@ const goToPage = (routePath: string) => {
         max-width: var(--dls-max-width);
         margin: 0 auto;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
         gap: 16px;
         padding: 4px 16px 4px 0;
@@ -88,20 +85,14 @@ const goToPage = (routePath: string) => {
             }
         }
 
-        .toolbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 16px;
-            flex: 1;
 
-            &__menubar {
-                display: flex;
-                gap: 12px;
-                justify-content: center;
-                align-items: center;
-                &--item {
-                    padding: 4px; 
+        &__menubar {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            align-items: center;
+            &--item {
+                padding: 4px; 
                     text-decoration: none;
                     color: var(--dls-secondary-color);
                     font-weight: bold;
@@ -112,26 +103,26 @@ const goToPage = (routePath: string) => {
                 }
             }
 
-            &__contact {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 16px;
-                border-left: 2px solid var(--dls-secondary-color);
-                padding-left: 16px;
+        &__contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            border-left: 2px solid var(--dls-secondary-color);
+            padding-left: 16px;
 
-                &--item {
-                    img {
-                        width: 20px;
-                        height: 20px;
-                    }
+            &--item {
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
 
-                    &:hover {
-                        opacity: 0.7;
-                    }
+                &:hover {
+                    opacity: 0.7;
                 }
             }
         }
+        
     }
 }
 
