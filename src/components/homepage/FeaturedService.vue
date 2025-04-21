@@ -11,7 +11,7 @@
                     <div class="image">
                         <img :src="item?.image" :alt="item?.text" loading="lazy">
                     </div>
-                    <div class="text">{{ item?.text }}</div>
+                    <div class="text" v-html="item?.text"></div>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@ const servicesList: any = [
     },
     {
         image: service2,
-        text: 'Thi công đèn LED nội thất nhà ở và văn phòng'
+        text: 'Thi công đèn LED nội thất<br /> nhà ở và văn phòng'
     },
     {
         image: service3,
@@ -41,7 +41,7 @@ const servicesList: any = [
     },
     {
         image: service4,
-        text: 'Thi công đèn LED nhà hàng, khách sạn, Spa, cafe'
+        text: 'Thi công đèn LED nhà hàng,<br /> khách sạn, Spa, cafe'
     },
     {
         image: service5,
@@ -112,9 +112,8 @@ const servicesList: any = [
         &--item {
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
+            justify-content: space-between;
             align-items: center;
-            gap: 16px;
             background-color: var(--dls-white-color);
             width: 380px;
             border-radius: 8px;
@@ -142,7 +141,11 @@ const servicesList: any = [
                 padding: 16px;
                 font-weight: bold;
                 text-align: center;
-                line-height: 1.2;
+                line-height: 1.5;
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
     }

@@ -44,6 +44,7 @@ const isOpen = ref<boolean>(false)
     position: fixed;
     right: 8px;
     bottom: 8px;
+    z-index: 2; // overlay banner
 
     &--close {
         background: linear-gradient(rgba(0, 0, 0, 0.77), black);
