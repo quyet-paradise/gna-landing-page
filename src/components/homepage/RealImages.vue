@@ -16,26 +16,31 @@
 </template>
 
 <script lang="ts" setup>
-import project1 from '/projects/1.webp'
-import project2 from '/projects/2.webp'
-import project3 from '/projects/3.webp'
-import project4 from '/projects/4.webp'
-import project5 from '/projects/5.jpg'
-import project6 from '/projects/6.jpg'
-import project7 from '/projects/7.jpg'
-import project8 from '/projects/8.jpg'
-import project9 from '/projects/9.jpg'
-import project10 from '/projects/10.jpg'
-import project11 from '/projects/11.jpg'
-import project12 from '/projects/12.jpg'
-import project13 from '/projects/13.jpg'
-import project14 from '/projects/14.jpg'
+import project1 from '/projects/1.png'
+import project2 from '/projects/2.png'
+import project3 from '/projects/3.png'
+import project4 from '/projects/4.png'
+import project5 from '/projects/5.png'
+import project6 from '/projects/6.png'
+import project7 from '/projects/7.png'
+import project8 from '/projects/8.png'
+import project9 from '/projects/9.png'
+import project10 from '/projects/10.png'
+import project11 from '/projects/11.png'
+import project12 from '/projects/12.png'
+import project13 from '/projects/13.png'
+import project14 from '/projects/14.png'
 import project15 from '/projects/15.png'
-import project16 from '/projects/16.jpg'
-import project17 from '/projects/17.jpg'
-import project18 from '/projects/18.jpg'
-import project19 from '/projects/19.jpg'
-import project20 from '/projects/20.jpg'
+import project16 from '/projects/16.png'
+import project17 from '/projects/17.png'
+import project18 from '/projects/18.png'
+import project19 from '/projects/19.png'
+import project20 from '/projects/20.png'
+import project21 from '/projects/21.png'
+import project22 from '/projects/22.png'
+import project23 from '/projects/23.png'
+import project24 from '/projects/24.png'
+
 
 const projectsList: any = [
     project1,
@@ -58,6 +63,10 @@ const projectsList: any = [
     project18,
     project19,
     project20,
+    project21,
+    project22,
+    project23,
+    project24
 ]
 </script>
 
