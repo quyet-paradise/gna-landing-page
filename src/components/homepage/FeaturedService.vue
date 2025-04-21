@@ -3,7 +3,7 @@
         <div class="service">
             <div class="service--title">
                 <img class="star" src="@/assets/images/ico/ico-star-white.svg" alt="star">
-                <h2 class="heading">Dịch vụ nổi bật</h2>
+                <h2 class="heading">DỊCH VỤ NỔI BẬT</h2>
             </div>
 
             <div class="service--list">
@@ -85,12 +85,13 @@ const servicesList: any = [
         width: 100%;
 
         .star {
-            height: 25px;
-            width: 25px;
+            height: 30px;
+            width: 30px;
         }
 
         .heading {
             color: var(--dls-white-color);
+            font-size: 32px;
         }
 
         &::after, &::before {

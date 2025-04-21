@@ -3,7 +3,7 @@
         <div class="why-us">
             <div class="why-us--title">
                 <img class="star" src="@/assets/images/ico/ico-star-white.svg" alt="star">
-                <h2 class="heading">Tại sao lựa chọn chúng tôi</h2>
+                <h2 class="heading">TẠI SAO LỰA CHỌN CHÚNG TÔI</h2>
             </div>
 
             <div class="why-us--content">
@@ -88,8 +88,12 @@ const whyUsContentList: any = [
         width: 100%;
 
         .star {
-            height: 25px;
-            width: 25px;
+            height: 30px;
+            width: 30px;
+        }
+
+        .heading {
+            font-size: 32px;
         }
 
         &::after, &::before {

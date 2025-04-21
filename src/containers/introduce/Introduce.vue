@@ -2,7 +2,7 @@
     <div class="introduce--inner">
         <div class="introduce">
             <div class="introduce--left">
-                <h2 style="text-align: center;">GIỚI THIỆU THICÔNGĐÈNLED247</h2>
+                <h2 style="text-align: center;">GIỚI THIỆU THICONGDENLED247</h2>
                 <p style="text-align: center; font-style: italic;">Chắp cánh không gian – Tỏa sáng thương hiệu</p>
                 <p>Thành lập từ năm 2019, <b>ThicongdenLED247</b> đã đồng hành cùng hàng ngàn dự án chiếu sáng, từ những không gian gia đình ấm cúng đến các siêu thị, văn phòng, quán cà phê và showroom quy mô. Chúng tôi thấu hiểu rằng, ánh sáng không chỉ đơn thuần là nguồn sáng – mà còn là công cụ tạo cảm xúc, nâng tầm giá trị và ấn tượng thương hiệu.</p>
 
@@ -65,6 +65,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
 }
 
 .introduce {

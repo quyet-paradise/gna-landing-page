@@ -45,6 +45,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
 }
 
 .introduce {
@@ -56,6 +58,7 @@
 
     &--title {
         text-align: center;
+        font-size: 32px;
     }
 
     &--star {
