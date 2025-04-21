@@ -3,7 +3,7 @@
         <div class="partners">
             <div class="partners--title">
                 <img class="star" src="@/assets/images/ico/ico-star-white.svg" alt="star">
-                <h2 class="heading">Đối tác của chúng tôi</h2>
+                <h2 class="heading">ĐỐI TÁC CỦA CHÚNG TÔI</h2>
             </div>
 
             <div class="partners--list">
@@ -50,7 +50,7 @@ const partnersList = [
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
 
     &--title {
         display: flex;
@@ -60,8 +60,12 @@ const partnersList = [
         width: 100%;
 
         .star {
-            height: 25px;
-            width: 25px;
+            height: 30px;
+            width: 30px;
+        }
+
+        .heading {
+            font-size: 32px;
         }
 
         &::after, &::before {

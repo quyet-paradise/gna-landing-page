@@ -3,7 +3,7 @@
         <div class="real-images">
             <div class="real-images--title">
                 <img class="star" src="@/assets/images/ico/ico-star-white.svg" alt="star">
-                <h2 class="heading">Hình ảnh thực tế</h2>
+                <h2 class="heading">HÌNH ẢNH THỰC TẾ</h2>
             </div>
 
             <div class="real-images--list">
@@ -96,8 +96,12 @@ const projectsList: any = [
         width: 100%;
 
         .star {
-            height: 25px;
-            width: 25px;
+            height: 30px;
+            width: 30px;
+        }
+
+        .heading {
+            font-size: 32px;
         }
 
         &::after, &::before {
