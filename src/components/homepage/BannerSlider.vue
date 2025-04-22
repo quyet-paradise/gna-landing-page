@@ -1,11 +1,25 @@
 <template>
     <div class="banner">
-        <Carousel id="gallery" v-bind="galleryConfig" v-model="currentSlide">
+        <Carousel v-bind="galleryConfig" v-model="currentSlide" class="pc">
             <Slide >
-                <img src="/banner/banner-ngoai-that-led.png" alt="banner-ngoai-that-led" class="gallery-image" />
+                <img src="/banner/pc/banner-ngoai-that-led.png" alt="banner-ngoai-that-led" class="gallery-image" />
             </Slide>
             <Slide >
-                <img src="/banner/banner-noi-that-led.png" alt="banner-noi-that-led" class="gallery-image" />
+                <img src="/banner/pc/banner-noi-that-led.png" alt="banner-noi-that-led" class="gallery-image" />
+            </Slide>
+
+            <template #addons>
+                <Navigation />
+                <Pagination />
+            </template>
+        </Carousel>
+
+        <Carousel v-bind="galleryConfig" v-model="currentSlide" class="mobile">
+            <Slide >
+                <img src="/banner/mobile/banner-ngoai-that-led.png" alt="banner-ngoai-that-led" class="gallery-image" />
+            </Slide>
+            <Slide >
+                <img src="/banner/mobile/banner-noi-that-led.png" alt="banner-noi-that-led" class="gallery-image" />
             </Slide>
 
             <template #addons>
@@ -43,6 +57,26 @@ img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.banner {
+    .pc {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    @media only screen and (max-width: 576px) {
+        .pc {
+            display: none;
+        }
+
+        .mobile {
+            display: block;
+        }
+    }
 }
 </style>
 

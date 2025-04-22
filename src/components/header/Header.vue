@@ -26,16 +26,26 @@
                     <img src="@/assets/images/ico/ico-phone.svg" alt="phone">
                 </a>
             </div>
+
+            <a class="header__mb" href="javascript:void(0)" @click="openPopup">
+                <img src="@/assets/images/ico/ico-menu-bars.svg" alt="menu-bar">
+            </a>
         </div>
     </div>
+
+    <HeaderPopupMb v-model:visible="isOpenPopup" />
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { PATH } from '@/constants/route-constants'
 
+import HeaderPopupMb from '@/components/popup/HeaderPopupMb.vue'
+
 const router = useRouter()
+
+const isOpenPopup = ref<boolean>(false)
 
 onMounted(() => {
     window.addEventListener("scroll", ()=> {
@@ -55,6 +65,9 @@ const goToPage = (routePath: string) => {
     router.push(routePath)
 }
 
+const openPopup = () => {
+    isOpenPopup.value = true
+}
 </script>
 
 <style scoped lang="scss">
@@ -64,7 +77,7 @@ const goToPage = (routePath: string) => {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 99; // < 100 of popup
     box-shadow: 0 4px 2px -2px gray;
     -moz-box-shadow: 0 4px 2px -2px gray;
     -webkit-box-shadow: 0 4px 2px -2px gray;
@@ -79,6 +92,7 @@ const goToPage = (routePath: string) => {
         padding: 4px 16px 4px 0;
 
         &__logo {
+            text-decoration: none;
             img {
                 height: 100px;
                 width: auto;
@@ -93,15 +107,15 @@ const goToPage = (routePath: string) => {
             align-items: center;
             &--item {
                 padding: 4px; 
-                    text-decoration: none;
-                    color: var(--dls-secondary-color);
-                    font-weight: bold;
+                text-decoration: none;
+                color: var(--dls-secondary-color);
+                font-weight: bold;
 
-                    &:hover {
-                        color: var(--dls-primary-color);
-                    }
+                &:hover {
+                    color: var(--dls-primary-color);
                 }
             }
+        }
 
         &__contact {
             display: flex;
@@ -123,6 +137,50 @@ const goToPage = (routePath: string) => {
             }
         }
         
+        &__mb {
+            text-decoration: none;
+            display: none;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 576px) and (max-width: 992px) {
+        .header {
+            &__menubar {
+                display: none;
+            }
+
+            &__contact {
+                display: none;
+            }
+
+            &__mb {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        .header {
+            &__menubar {
+                display: none;
+            }
+
+            &__contact {
+                display: none;
+            }
+
+            &__mb {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
     }
 }
 
