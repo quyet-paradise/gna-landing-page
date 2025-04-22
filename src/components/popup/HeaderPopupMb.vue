@@ -50,7 +50,7 @@ const goToPage = (routePath: string) => {
     emits('update:visible', false)
 }
 
-watch(() => props.visible, (newVal) => {
+watch(() => props.visible, (newVal: boolean) => {
     const body = document.body;
 
     if (newVal) {
