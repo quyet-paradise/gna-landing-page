@@ -1,12 +1,14 @@
 <template>
     <div class="introduce--inner">
         <div class="introduce">
-            <div class="introduce--left">
+            <div class="introduce--content">
                 <h2 style="text-align: center;">GIỚI THIỆU THICONGDENLED247</h2>
                 <p style="text-align: center; font-style: italic;">Chắp cánh không gian – Tỏa sáng thương hiệu</p>
                 <p>Thành lập từ năm 2019, <b>ThicongdenLED247</b> đã đồng hành cùng hàng ngàn dự án chiếu sáng, từ những không gian gia đình ấm cúng đến các siêu thị, văn phòng, quán cà phê và showroom quy mô. Chúng tôi thấu hiểu rằng, ánh sáng không chỉ đơn thuần là nguồn sáng – mà còn là công cụ tạo cảm xúc, nâng tầm giá trị và ấn tượng thương hiệu.</p>
 
-                <hr />
+                <div class="introduce--content__img" >
+                    <img src="/introduce/introduce.png" alt="thicongdenled247">
+                </div>
 
                 <h4>🔹 Thi công trọn gói – Bừng sáng mọi công trình</h4>
                 <ul>
@@ -47,8 +49,6 @@
                 <p>☎️ <b>Liên hệ ngay: +84 33 293 7600</b></p>
                 <p>Chúng tôi rất hân hạnh được phục vụ và kiến tạo không gian lung linh cho bạn!</p>
             </div>
-
-            <img class="introduce--right" src="/introduce/introduce.png" alt="thicongdenled247">
             
         </div>
     </div>
@@ -80,16 +80,20 @@
     padding: 32px 0;
     text-shadow: 0 0 1px var(--dls-secondary-color);
 
-    &--left {
-        flex: 1;
+    &--content {
         line-height: 1.5;
-    }
 
-    &--right {
-        width: 40%;
-        height: auto;
-        border-radius: 8px;
-        margin-top: 100px;
+        &__img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            img {
+                width: 50%;
+            }
+        }
     }
 }
 </style>
