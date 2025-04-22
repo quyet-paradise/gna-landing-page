@@ -5,6 +5,12 @@ const Service = () => import('@/containers/service/Service.vue')
 const Introduce = () => import('@/containers/introduce/Introduce.vue')
 const Project = () => import('@/containers/project/Project.vue')
 const Contact = () => import('@/containers/contact/Contact.vue')
+const SanVuonService = () => import('@/containers/featured_service/SanVuonService.vue')
+const NoiThatService = () => import('@/containers/featured_service/NoiThatService.vue')
+const BienQuangCaoService = () => import('@/containers/featured_service/BienQuangCaoService.vue')
+const NhaHangService = () => import('@/containers/featured_service/NhaHangService.vue')
+const TronGoiService = () => import('@/containers/featured_service/TronGoiService.vue')
+const ModuleService = () => import('@/containers/featured_service/ModuleService.vue')
 
 const routes = [
     { 
@@ -36,6 +42,42 @@ const routes = [
         name: ROUTE_NAME.CONTACT, 
         component: Contact,
         meta: { title: ` ⊹ ${ROUTE_NAME.CONTACT}` }
+    },
+    {
+        path: PATH.SAN_VUON_SERVICE, 
+        name: ROUTE_NAME.SAN_VUON_SERVICE, 
+        component: SanVuonService,
+        meta: { title: ` ⊹ ${ROUTE_NAME.SAN_VUON_SERVICE}` }
+    },
+    {
+        path: PATH.NHA_HANG_SERVICE, 
+        name: ROUTE_NAME.NHA_HANG_SERVICE, 
+        component: NhaHangService,
+        meta: { title: ` ⊹ ${ROUTE_NAME.NHA_HANG_SERVICE}` }
+    },
+    {
+        path: PATH.NOI_THAT_SERVICE, 
+        name: ROUTE_NAME.NOI_THAT_SERVICE, 
+        component: NoiThatService,
+        meta: { title: ` ⊹ ${ROUTE_NAME.NOI_THAT_SERVICE}` }
+    },
+    {
+        path: PATH.TRON_GOI_SERVICE, 
+        name: ROUTE_NAME.TRON_GOI_SERVICE, 
+        component: TronGoiService,
+        meta: { title: ` ⊹ ${ROUTE_NAME.TRON_GOI_SERVICE}` }
+    },
+    {
+        path: PATH.BIEN_QUANG_CAO_SERVICE, 
+        name: ROUTE_NAME.BIEN_QUANG_CAO_SERVICE, 
+        component: BienQuangCaoService,
+        meta: { title: ` ⊹ ${ROUTE_NAME.BIEN_QUANG_CAO_SERVICE}` }
+    },
+    {
+        path: PATH.MODULE_SERVICE, 
+        name: ROUTE_NAME.MODULE_SERVICE, 
+        component: ModuleService,
+        meta: { title: ` ⊹ ${ROUTE_NAME.MODULE_SERVICE}` }
     },
     {
         path: "/:catchAll(.*)", // Unrecognized path automatically matches 404
