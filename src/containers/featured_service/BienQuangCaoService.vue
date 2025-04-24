@@ -6,7 +6,7 @@
         <p>Bảng hiệu chữ nổi (channel letters) sử dụng chất liệu mica, inox hoặc aluminium kết hợp đèn LED âm bên trong từng chữ cái, cho ánh sáng lan tỏa đều qua mặt trước (face‑lit), viền sau (back‑lit) hoặc cả hai. Phong cách thiết kế linh hoạt, phù hợp mọi phong cách từ tối giản đến sang trọng.</p>
         <hr />
 
-        <h2>2. Phân loại ánh sáng</h2>
+        <h3>2. Phân loại ánh sáng</h3>
         <table>
             <tbody>
                 <tr>
@@ -127,64 +127,5 @@ const bienQuangCaoImagesList: any = [
 </script>
 
 <style lang="scss" scoped>
-.service {
-    max-width: var(--dls-max-width);
-    margin: 0 auto;
-    line-height: 1.5;
-    padding: 32px 0;
-
-    h2 {
-        text-align: center;
-        color: var(--dls-third-color);
-    }
-
-    h3 {
-        color: var(--dls-primary-color);
-    }
-
-    table, td, th {
-        border: 1px solid;
-    }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-
-        td, th {
-            padding: 2px 4px;
-        }
-
-        td:first-child {
-            font-weight: 600;
-        }
-    }
-
-    ol {
-        li {
-            font-weight: 600;
-        }
-
-        ul {
-            li {
-                font-weight: normal;
-            }
-        }
-    }
-
-    &--images-list {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 20px;
-        padding: 16px 0;
-
-        img {
-            width: 290px;
-            height: auto;
-            border-radius: 8px;
-        }
-    }
-}
+@import url('@/styles/service/service.scss');
 </style>

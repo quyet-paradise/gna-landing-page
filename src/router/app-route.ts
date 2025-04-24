@@ -11,6 +11,10 @@ const BienQuangCaoService = () => import('@/containers/featured_service/BienQuan
 const NhaHangService = () => import('@/containers/featured_service/NhaHangService.vue')
 const TronGoiService = () => import('@/containers/featured_service/TronGoiService.vue')
 const ModuleService = () => import('@/containers/featured_service/ModuleService.vue')
+const NoiThatDetail = () => import('@/containers/service/detail/NoiThatDetail.vue')
+const NgoaiThatDetail = () => import('@/containers/service/detail/NgoaiThatDetail.vue')
+const TronGoiDetail = () => import('@/containers/service/detail/TronGoiDetail.vue')
+const BanBuonLedDetail = () => import('@/containers/service/detail/BanBuonLedDetail.vue')
 
 const routes = [
     { 
@@ -78,6 +82,30 @@ const routes = [
         name: ROUTE_NAME.MODULE_SERVICE, 
         component: ModuleService,
         meta: { title: ` ⊹ ${ROUTE_NAME.MODULE_SERVICE}` }
+    },
+    {
+        path: PATH.NOI_THAT_SERVICE_DETAIL, 
+        name: ROUTE_NAME.NOI_THAT_SERVICE_DETAIL, 
+        component: NoiThatDetail,
+        meta: { title: ` ⊹ ${ROUTE_NAME.NOI_THAT_SERVICE_DETAIL}` }
+    },
+    {
+        path: PATH.NGOAI_THAT_SERVICE_DETAIL, 
+        name: ROUTE_NAME.NGOAI_THAT_SERVICE_DETAIL, 
+        component: NgoaiThatDetail,
+        meta: { title: ` ⊹ ${ROUTE_NAME.NGOAI_THAT_SERVICE_DETAIL}` }
+    },
+    {
+        path: PATH.TRON_GOI_SERVICE_DETAIL, 
+        name: ROUTE_NAME.TRON_GOI_SERVICE_DETAIL, 
+        component: TronGoiDetail,
+        meta: { title: ` ⊹ ${ROUTE_NAME.TRON_GOI_SERVICE_DETAIL}` }
+    },
+    {
+        path: PATH.BAN_BUON_LED_SERVICE_DETAIL, 
+        name: ROUTE_NAME.BAN_BUON_LED_SERVICE_DETAIL, 
+        component: BanBuonLedDetail,
+        meta: { title: ` ⊹ ${ROUTE_NAME.BAN_BUON_LED_SERVICE_DETAIL}` }
     },
     {
         path: "/:catchAll(.*)", // Unrecognized path automatically matches 404

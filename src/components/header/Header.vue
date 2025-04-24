@@ -1,7 +1,7 @@
 <template>
     <div class="header-inner">
         <div class="header">
-            <a class="header__logo" href="#">
+            <a class="header__logo" href="/">
                 <img src="/logos/thicongdenled_logo.png" alt="logo" id="ledlogo">
             </a>
 

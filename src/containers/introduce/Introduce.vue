@@ -2,7 +2,7 @@
     <div class="introduce--inner">
         <div class="introduce">
             <div class="introduce--content">
-                <h2 style="text-align: center;">GIỚI THIỆU THICONGDENLED247</h2>
+                <h2>GIỚI THIỆU THICONGDENLED247</h2>
                 <p style="text-align: center; font-style: italic;">Chắp cánh không gian – Tỏa sáng thương hiệu</p>
                 <p>Thành lập từ năm 2019, <b>ThicongdenLED247</b> đã đồng hành cùng hàng ngàn dự án chiếu sáng, từ những không gian gia đình ấm cúng đến các siêu thị, văn phòng, quán cà phê và showroom quy mô. Chúng tôi thấu hiểu rằng, ánh sáng không chỉ đơn thuần là nguồn sáng – mà còn là công cụ tạo cảm xúc, nâng tầm giá trị và ấn tượng thương hiệu.</p>
 
@@ -10,25 +10,25 @@
                     <img src="/introduce/introduce.png" alt="thicongdenled247">
                 </div>
 
-                <h4>🔹 Thi công trọn gói – Bừng sáng mọi công trình</h4>
+                <h3>🔹 Thi công trọn gói – Bừng sáng mọi công trình</h3>
                 <ul>
                     <li><b>Khảo sát & Tư vấn chuyên sâu:</b> Đội ngũ kỹ sư giàu kinh nghiệm đo đạc, phân tích hiện trạng, xác định nhu cầu và đề xuất giải pháp LED tiết kiệm, hiệu quả nhất.</li>
                     <li><b>Thiết kế & Lắp đặt chuẩn mực:</b> Từ bản vẽ 2D/3D đến hiện thực hóa trên công trường, đảm bảo tiến độ – thẩm mỹ – an toàn lao động.</li>
                     <li><b>Vận hành & Bảo trì định kỳ:</b> Kiểm tra, hiệu chỉnh ánh sáng và xử lý sự cố ngay khi phát sinh, giữ cho không gian luôn rực rỡ như ngày đầu.</li>
                 </ul>
 
-                <h4>🔹 Setup showroom – Nơi thương hiệu tỏa sáng</h4>
+                <h3>🔹 Setup showroom – Nơi thương hiệu tỏa sáng</h3>
                 <ul>
                     <li><b>Lên ý tưởng - thiết kế - thi công trọn gói:</b> Từ nhà hàng, cafe, spa, nhà ở, văn phòng,...</li>
                     <li><b>Trưng bày chuyên nghiệp:</b> Hệ thống mẫu thử, bảng màu và catalog sống động giúp khách trải nghiệm trực quan trước khi quyết định.</li>
                 </ul>
 
-                <h4>🔹 Cải tạo không gian cũ</h4>
+                <h3>🔹 Cải tạo không gian cũ</h3>
                 <ul>
                     <li><b>Sửa chữa và đưa ra giải pháp cải tạo:</b> Làm mới không gian, bắt kịp xu thế của thời đại</li>
                 </ul>
 
-                <h4>🔹 Buôn bán sỉ & Đại lý cấp 1 – Nguồn cung cấp tin cậy</h4>
+                <h3>🔹 Buôn bán sỉ & Đại lý cấp 1 – Nguồn cung cấp tin cậy</h3>
                 <ul>
                     <li><b>Kho bãi & Văn phòng tại Hà Nội:</b> Diện tích lớn, luôn sẵn sàng đáp ứng đơn hàng số lượng lớn.</li>
                     <li><b>Showroom trải nghiệm:</b> Trực tiếp kiểm định chất lượng, so sánh hiệu suất và kiểu dáng.</li>
@@ -37,7 +37,7 @@
 
                 <hr />
 
-                <h4>Cam kết của ThicongdenLED247</h4>
+                <h3>Cam kết của ThicongdenLED247</h3>
                 <ol>
                     <li><b>Giá xưởng – Tối ưu ngân sách</b></li>
                     <li><b>Chất lượng bền bỉ</b> – Vật tư đạt chuẩn, tuổi thọ cao</li>
@@ -78,10 +78,19 @@
     max-width: var(--dls-max-width);
     margin: 0 auto;
     padding: 32px 0;
-    text-shadow: 0 0 1px var(--dls-secondary-color);
+    // text-shadow: 0 0 1px var(--dls-secondary-color);
 
     &--content {
         line-height: 1.5;
+
+        h2 {
+            color: var(--dls-third-color);
+            text-align: center;
+        }
+
+        h3 {
+            color: var(--dls-primary-color);
+        }
 
         &__img {
             width: 100%;
