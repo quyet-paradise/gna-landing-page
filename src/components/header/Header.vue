@@ -18,7 +18,7 @@
                     <img src="@/assets/images/ico/ico-fb.svg" alt="fb">
                 </a>
 
-                <a class="header__contact--item" href="mailto:thicongdenled247.com.vn">
+                <a class="header__contact--item" href="mailto:chuyenthicongdenled247@gmail.com">
                     <img src="@/assets/images/ico/ico-email.svg" alt="email">
                 </a>
 
