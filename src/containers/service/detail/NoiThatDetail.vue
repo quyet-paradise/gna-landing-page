@@ -94,7 +94,7 @@
         <h3>7. Liên hệ</h3>
         <ul>
             <li><b>Hotline,Zalo:</b> +84 33 2937600</li>
-            <li><b>Email:</b> info@ledxinh.vn</li>
+            <li><b>Email:</b> chuyenthicongdenled247@gmail.com</li>
             <li>Liên hệ ngay hôm nay để nhận tư vấn miễn phí và báo giá chi tiết!</li>
         </ul>
     </div>

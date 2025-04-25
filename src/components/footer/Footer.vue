@@ -5,14 +5,14 @@
                 <h2 class="company-name">ThicongdenLED247</h2>
                 <div class="subtitle">Mang đến giải pháp toàn diện, tiết kiệm và thẩm mỹ cho mọi không gian</div>
                 <div class="hotline"><b>Số điện thoại / Zalo:</b> +84 33 293 7600</div>
-                <div class="email"><b>Email:</b> thicongdenled247.com.vn</div>
+                <div class="email"><b>Email:</b> chuyenthicongdenled247@gmail.com</div>
 
                 <div class="contact">
                     <a href="https://www.facebook.com/profile.php?id=61568493685782" target="_blank" class="contact--item fb">
                         <img src="@/assets/images/ico/ico-fb.svg" alt="fb">
                     </a>
 
-                    <a href="mailto:thicongdenled247.com.vn" class="contact--item email">
+                    <a href="mailto:chuyenthicongdenled247@gmail.com" class="contact--item email">
                         <img src="@/assets/images/ico/ico-email.svg" alt="email">
                     </a>
 
