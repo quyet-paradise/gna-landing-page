@@ -86,7 +86,7 @@
         <ul>
             <li><b>Khảo sát miễn phí</b> trong nội thành.</li>
             <li><b>Báo giá nhanh</b> trong 24 giờ, rõ ràng – không phát sinh.</li>
-            <li><b>Bảo hành 24–36 tháng</b>, hỗ trợ kỹ thuật liên tục.</li>
+            <li><b>Bảo hành 12 - 24 tháng</b>, hỗ trợ kỹ thuật liên tục.</li>
             <li><b>Thanh toán linh hoạt</b>, hỗ trợ trả góp dự án lớn.</li>
         </ul>
         <hr />

@@ -23,7 +23,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import servicesData from '@/data/service-data'
+import { servicesData } from '@/data/service-data'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()

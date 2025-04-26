@@ -4,7 +4,7 @@
             <div class="footer__left">
                 <h2 class="company-name">ThicongdenLED247</h2>
                 <div class="subtitle">Mang đến giải pháp toàn diện, tiết kiệm và thẩm mỹ cho mọi không gian</div>
-                <div class="hotline"><b>Số điện thoại / Zalo:</b> +84 33 293 7600</div>
+                <div class="hotline"><b>Hotline / Zalo:</b> +84 33 293 7600</div>
                 <div class="email"><b>Email:</b> chuyenthicongdenled247@gmail.com</div>
 
                 <div class="contact">
@@ -21,12 +21,21 @@
                     </a>
                 </div>
             </div>
-            <div class="footer__right">
+            <div class="footer__center">
                 <h2 class="address">Địa chỉ</h2>
-                <div class="address-sub">40 P. Ngụy Như Kon Tum, Nhân Chính, Thanh Xuân, Hà Nội</div>
+                <div class="address-sub"><b>Văn phòng:</b> 40 P. Ngụy Như Kon Tum, Nhân Chính, Thanh Xuân, Hà Nội</div>
+                <div class="address-sub"><b>Showroom:</b> 26 Nguyễn Xiển - Thanh Xuân - Hà Nội</div>
+                <div class="address-sub"><b>Kho xưởng:</b> Long Biên - Hà Nội & Hà Đông - Hà Nội</div>
                 <div class="address-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.429154899475!2d105.79745704837006!3d20.998316086775674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acbc89f2aa1b%3A0xd5b7b6aa22d84ecf!2zNDAgUC4gTmfhu6V5IE5oxrAgS29uIFR1bSwgTmjDom4gQ2jDrW5oLCBUaGFuaCBYdcOibiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1744822064106!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade">                        
                     </iframe>
+                </div>
+            </div>
+
+            <div class="footer__right">
+                <h2 class="title">DỊCH VỤ NỔI BẬT</h2>
+                <div class="list">
+                    <a class="" href="javascript:void(0)" v-for="(service, index) in featuredServicesData" :key="index" @click="goToDetail(service?.link)">{{ service?.text?.replace('<br />', '') }}</a>
                 </div>
             </div>
         </div>
@@ -35,7 +44,16 @@
     </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useRouter } from 'vue-router'
+import { featuredServicesData } from '@/data/service-data'
+
+const router = useRouter()
+
+const goToDetail = (path: any) => {
+    router.push(path)
+}
+</script>
 
 <style scoped lang="scss">
 .footer-inner {
@@ -48,6 +66,8 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        gap: 16px;
+        line-height: 1.3;
 
         &__left {
             display: flex;
@@ -102,7 +122,7 @@
             }
         }
 
-        &__right {
+        &__center {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -118,6 +138,39 @@
             .address-map {
                 iframe {
                     border-radius: 16px;
+                    width: 400px;
+                    height: 300px;
+                }
+            }
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 16px;
+            color: var(--dls-white-color);
+
+            .title {
+                border-left: 4px solid var(--dls-third-color);
+                padding-left: 16px;
+            }
+
+            .list {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 16px;
+
+                a {
+                    text-decoration: none;
+                    color: var(--dls-white-color);
+
+                    &:hover {
+                        color: var(--dls-third-color);
+                    }
                 }
             }
         }

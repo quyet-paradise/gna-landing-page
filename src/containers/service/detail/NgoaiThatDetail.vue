@@ -126,7 +126,7 @@
         <ul>
             <li><b>Khảo sát miễn phí</b> khu vực nội–ngoại thành.</li>
             <li><b>Báo giá chi tiết</b> trong 24h, minh bạch – không phát sinh.</li>
-            <li><b>Bảo hành 24–36 tháng</b>, hỗ trợ kỹ thuật sau thi công.</li>
+            <li><b>Bảo hành 12 - 24 tháng</b>, hỗ trợ kỹ thuật sau thi công.</li>
             <li><b>Thanh toán linh hoạt</b>, hỗ trợ trả góp cho dự án lớn.</li>
         </ul>
     </div>

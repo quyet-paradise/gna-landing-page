@@ -27,17 +27,17 @@ const projectsData: any = [
     {
         id: 'project1',
         image: project1,
-        desc: 'Đèn LED bậc thang & Đèn LED trang trí viền mái'
+        desc: 'Đèn LED bậc thang &<br /> Đèn LED trang trí viền mái'
     },
     {
         id: 'project2',
         image: project2,
-        desc: 'Set up trọn gói thi công nội thất & ánh sáng quán cafe'
+        desc: 'Set up trọn gói thi công <br />nội thất & ánh sáng quán cafe'
     },
     {
         id: 'project3',
         image: project3,
-        desc: 'Thi công biển bảng quảng cáo và đèn LED HighLand Coffee'
+        desc: 'Thi công biển bảng quảng cáo <br />và đèn LED HighLand Coffee'
     },
     {
         id: 'project4',
@@ -47,7 +47,7 @@ const projectsData: any = [
     {
         id: 'project5',
         image: project5,
-        desc: 'Thi công ngoại thất - bảng biển hiệu quán ăn'
+        desc: 'Thi công ngoại thất -<br /> bảng biển hiệu quán ăn'
     },
     {
         id: 'project6',
@@ -57,7 +57,7 @@ const projectsData: any = [
     {
         id: 'project7',
         image: project7,
-        desc: 'Thi công đèn LED ngoại mặt tiền Bách Cafe'
+        desc: 'Thi công đèn LED ngoại<br /> mặt tiền Bách Cafe'
     },
     {
         id: 'project8',
@@ -67,7 +67,7 @@ const projectsData: any = [
     {
         id: 'project9',
         image: project9,
-        desc: 'Thi công bảng hiệu và set up showroom SIXDO'
+        desc: 'Thi công đèn LED showroom'
     },
     {
         id: 'project10',
@@ -87,7 +87,7 @@ const projectsData: any = [
     {
         id: 'project13',
         image: project13,
-        desc: 'Thi công đèn LED quấn cây và đèn LED cột trụ chung cư'
+        desc: 'Thi công đèn LED quấn cây <br />và đèn LED cột trụ chung cư'
     },
     {
         id: 'project14',
@@ -112,7 +112,7 @@ const projectsData: any = [
     {
         id: 'project18',
         image: project18,
-        desc: 'Dự án thi công thiết kế LED ngoại thất tổng thể'
+        desc: 'Dự án thi công thiết kế <br />LED ngoại thất tổng thể'
     },
     {
         id: 'project19',
@@ -137,12 +137,12 @@ const projectsData: any = [
     {
         id: 'project23',
         image: project23,
-        desc: 'Thi công thiết kế ngoại thất ánh sáng An Phước'
+        desc: 'Thi công thiết kế ngoại thất <br />ánh sáng An Phước'
     },
     {
         id: 'project24',
         image: project24,
-        desc: 'Thi công đèn LED ánh sáng cho showroom DIOR'
+        desc: 'Thi công đèn LED ánh sáng <br /> cho showroom DIOR'
     }
 ]
 
