@@ -21,9 +21,6 @@
                     <h3>📦 Buôn sỉ đèn LED giá xưởng:</h3>
                     <p>Cam kết giá tốt nhất thị trường, mẫu mã đa dạng, bảo hành chu đáo.</p>
 
-                    <h3>📦 Buôn sỉ đèn LED giá xưởng:</h3>
-                    <p>Cam kết giá tốt nhất thị trường, mẫu mã đa dạng, bảo hành chu đáo.</p>
-
                     <h3>🌐 Hệ sinh thái ThicongdenLED247:</h3>
                     <ul>
                         <li>Showroom trưng bày trải nghiệm</li>
