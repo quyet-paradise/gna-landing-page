@@ -36,12 +36,12 @@ const whyUsContentList: any = [
     },
     {
         icon: penIcon,
-        title: 'Khảo sát tỉ mĩ, tư vấn miễn phí',
-        subtitle: 'Đội ngũ nhân viên khảo sát cẩn thận, tỉ mĩ từng chi tiết. Tư vấn biện pháp tối ưu nhất cho khách hàng miễn phí 100%'
+        title: 'Khảo sát tỉ mỉ, tư vấn miễn phí',
+        subtitle: 'Đội ngũ nhân viên khảo sát cẩn thận, tỉ mỉ từng chi tiết. Tư vấn biện pháp tối ưu nhất cho khách hàng miễn phí 100%'
     },
     {
         icon: listIcon,
-        title: 'Gíá rẻ',
+        title: 'Giá rẻ',
         subtitle: 'Dịch vụ hoàn hảo với giá thành hợp lý nhất.'
     },
     {

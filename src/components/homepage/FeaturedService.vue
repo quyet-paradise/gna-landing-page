@@ -7,7 +7,7 @@
             </div>
 
             <div class="service--list">
-                <div class="service--list--item" v-for="(item, index) in servicesList" :key="index">
+                <div class="service--list--item" v-for="(item, index) in featuredServicesData" :key="index">
                     <div class="image" @click="goToDetail(item?.link)">
                         <img :src="item?.image" :alt="item?.text" loading="lazy">
                     </div>
@@ -20,50 +20,9 @@
 
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-
-import service1 from '/featured_service/1.jpg'
-import service2 from '/featured_service/2.jpg'
-import service3 from '/featured_service/3.jpg'
-import service4 from '/featured_service/4.jpg'
-import service5 from '/featured_service/5.jpg'
-import service6 from '/featured_service/6.jpg'
-
-import { PATH } from '@/constants/route-constants'
+import { featuredServicesData } from '@/data/service-data'
 
 const router = useRouter()
-
-const servicesList: any = [
-    {
-        image: service1,
-        text: 'Thi công đèn LED sân vườn',
-        link: PATH.SAN_VUON_SERVICE
-    },
-    {
-        image: service2,
-        text: 'Thi công đèn LED nội thất<br /> nhà ở và văn phòng',
-        link: PATH.NOI_THAT_SERVICE
-    },
-    {
-        image: service3,
-        text: 'Thi công đèn LED bảng biển quảng cáo',
-        link: PATH.BIEN_QUANG_CAO_SERVICE
-    },
-    {
-        image: service4,
-        text: 'Thi công đèn LED nhà hàng,<br /> khách sạn, Spa, cafe',
-        link: PATH.NHA_HANG_SERVICE
-    },
-    {
-        image: service5,
-        text: 'Setup showroom, nhà hàng trọn gói',
-        link: PATH.TRON_GOI_SERVICE
-    },
-    {
-        image: service6,
-        text: 'Màn hình LED module',
-        link: PATH.MODULE_SERVICE
-    },
-]
 
 const goToDetail = (path: any) => {
     router.push(path)

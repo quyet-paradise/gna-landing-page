@@ -10,22 +10,28 @@
 
             <div class="introduce--content">
                 <div class="text">
-                    <p>Với 7 năm kinh nghiệm và hàng ngàn dự án chiếu sáng LED khắp cả nước, ThicongdenLED247 tự hào mang đến giải pháp trọn gói, đồng bộ cho mọi không gian:</p>
+                    <p>Thành lập từ năm 2019, <b>ThicongdenLED247</b> đã đồng hành và hoàn thiện hàng ngàn dự án chiếu sáng LED khắp cả nước, chúng tôi tự hào mang đến giải pháp trọn gói, đồng bộ cho mọi không gian.</p>
 
-                    <ul>
-                        <li><b>Thi công đèn LED nội & ngoại thất</b><br />Khảo sát – Thiết kế – Lắp đặt – Vận hành – Bảo trì, đảm bảo tiến độ nhanh, an toàn, bảo hành dài hạn và thẩm mỹ vượt trội.</li>
-                        <li><b>Setup showroom chuyên nghiệp</b><br />Không chỉ chuyên về thi công đèn LED chúng tôi có giải pháp tổng thể về thiết kế & thi công nội thất từ  tư vấn concept không gian, lựa chọn mẫu mã, phối cảnh ánh sáng, tối ưu trải nghiệm khách hàng.</li>
-                        <li><b>Buôn sỉ đèn LED giá xưởng</b><br />Cam kết giá tốt nhất thị trường, mẫu mã đa dạng, bảo hành chu đáo.</li>
-                    </ul>
+                    <h3>💡Thi công đèn LED nội & ngoại thất:</h3>
+                    <p>Khảo sát – Thiết kế – Lắp đặt – Vận hành – Bảo trì, đảm bảo tiến độ nhanh, an toàn, tính thẩm mỹ cao, bảo hành dài hạn và giá thành hợp lí.</p>
 
-                    <h3>Hệ sinh thái ThicongdenLED247</h3>
+                    <h3>🛠️ Setup showroom chuyên nghiệp:</h3>
+                    <p>Không chỉ chuyên về thi công đèn LED chúng tôi có giải pháp tổng thể về thiết kế & thi công nội thất từ  tư vấn concept không gian, lựa chọn mẫu mã, phối cảnh ánh sáng, tối ưu trải nghiệm khách hàng.</p>
+
+                    <h3>📦 Buôn sỉ đèn LED giá xưởng:</h3>
+                    <p>Cam kết giá tốt nhất thị trường, mẫu mã đa dạng, bảo hành chu đáo.</p>
+
+                    <h3>📦 Buôn sỉ đèn LED giá xưởng:</h3>
+                    <p>Cam kết giá tốt nhất thị trường, mẫu mã đa dạng, bảo hành chu đáo.</p>
+
+                    <h3>🌐 Hệ sinh thái ThicongdenLED247:</h3>
                     <ul>
                         <li>Showroom trưng bày trải nghiệm</li>
                         <li>Kho bãi quy mô lớn, sẵn sàng cung ứng ngay trên khắp cả nước</li>
                         <li>Văn phòng điều hành chuyên nghiệp, hỗ trợ 24/7</li>
                     </ul>
 
-                    <h3>Cam kết của chúng tôi</h3>
+                    <h3>🤝 Cam kết của chúng tôi:</h3>
                     <ol>
                         <li><b>Giá xưởng – Tối ưu ngân sách</b></li>
                         <li><b>Chất lượng bền bỉ</b> – Vật tư đạt chuẩn, tuổi thọ cao</li>
@@ -33,7 +39,7 @@
                         <li><b>Hậu mãi tận tâm</b> – Bảo trì & bảo hành nhanh chóng</li>
                     </ol>
 
-                    <p><b>ThicongdenLED247</b> – Thắp sáng không gian, nâng tầm giá trị!</p>
+                    <p><b style="color: var(--dls-third-color);">ThicongdenLED247</b> – Thắp sáng không gian, nâng tầm giá trị!</p>
                 </div>
 
                 <div class="image" >

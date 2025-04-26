@@ -11,7 +11,7 @@
                     <img :src="project.image" :alt="project?.desc">
                 </div>
                 
-                <div class="desc">{{ project?.desc }}</div>
+                <div class="desc" v-html="project?.desc"></div>
             </div>
         </div>
     </div>
