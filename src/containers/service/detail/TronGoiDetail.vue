@@ -1,6 +1,6 @@
 <template>
     <div class="service">
-        <h2>Gói trọn gói thi công - thiết kế từ nội thất - ánh sáng</h2>
+        <h2>Dịch vụ trọn gói thi công - thiết kế từ nội thất - ánh sáng</h2>
 
         <h3>Mỗi gói bao gồm:</h3>
         <ul>

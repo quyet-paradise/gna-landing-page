@@ -6,10 +6,10 @@
                 <div class="subtitle">Đừng ngại liên hệ với chúng tôi →</div>
             </div>
 
-            <form class="contact--form">
-                <input class="contact--form__input" type="text" placeholder="Họ và tên" required>
-                <input class="contact--form__input" type="tel" placeholder="Số điện thoại" required>
-                <input class="contact--form__input" type="email" placeholder="Email">
+            <form class="contact--form" @submit="submitForm">
+                <input class="contact--form__input" v-model="fullnameInput" type="text" placeholder="Họ và tên" required>
+                <input class="contact--form__input" v-model="phoneInput" type="tel" placeholder="Số điện thoại" required>
+                <input class="contact--form__input" v-model="emailInput" type="email" placeholder="Email">
 
                 <input class="contact--form__submit-btn" type="submit">
             </form>
@@ -17,7 +17,28 @@
     </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { ref } from 'vue'
+
+const fullnameInput = ref<string>('')
+const phoneInput = ref<string>('')
+const emailInput = ref<string>('')
+
+const submitForm = () => {
+    if(!fullnameInput.value || !phoneInput.value) return
+
+    const endPoint = `https://script.google.com/macros/s/AKfycbz7DaS3PFeY4l-pG50TQG3ccj1dUHvFQntZqd8HPpK_1LVC9LqVzcWOE7qr1Jpn8L95/exec?fullname=${fullnameInput.value}&phone=${phoneInput.value}&email=${emailInput.value}`
+
+    fetch(endPoint, {
+        method: "POST"
+    }).then(() => {
+        alert('Gửi yêu cầu thành công')
+    })
+    .catch((error: any) => {
+        alert('Có lỗi khi thực thi API:' + error)
+    })
+}
+</script>
 
 <style lang="scss" scoped>
 .contact--inner {
