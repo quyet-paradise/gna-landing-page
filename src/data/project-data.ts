@@ -52,7 +52,7 @@ const projectsData: any = [
     {
         id: 'project6',
         image: project6,
-        desc: 'Đèn LED quấn dây'
+        desc: 'Đèn LED quấn cây'
     },
     {
         id: 'project7',
