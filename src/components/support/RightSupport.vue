@@ -8,19 +8,19 @@
                 </div>
             </div>
 
-            <form class="form">
+            <form class="form" @submit="submitForm">
                 <div class="form--top">
                     <div class="form--top--introduce">
                         💡 Xin chào! Chào mừng bạn đến với ThicongdenLED247! Nếu bạn cần tư vấn về lắp đèn LED trang trí hoặc muốn biết thêm thông tin về các dịch vụ khác của chúng tôi, đừng ngần ngại nhắn tin nhé! Đội ngũ tư vấn của chúng tôi sẵn sàng hỗ trợ bạn. 🌟
                     </div>
                     <div class="form--top--phone">
                         <div>Điện thoại</div>
-                        <input type="tel" required placeholder="Nhập số điện thoại của bạn">
+                        <input v-model="phoneInput" type="tel" required placeholder="Nhập số điện thoại của bạn">
                     </div>
                 </div>
 
                 <div class="form--bottom">
-                    <input class="text" type="text" placeholder="Nhập nội dung thông điệp" required>
+                    <input v-model="contentInput" class="text" type="text" placeholder="Nhập nội dung thông điệp" required>
                     <input class="btn" type="submit">
                 </div>
             </form>
@@ -37,6 +37,23 @@
 import { ref } from 'vue';
 
 const isOpen = ref<boolean>(false)
+const phoneInput = ref<string>('')
+const contentInput = ref<string>('')
+
+const submitForm = () => {
+    if (!phoneInput.value || !contentInput.value) return
+
+    const endPoint = `https://script.google.com/macros/s/AKfycbx9WAmDThc62ip3che2sDoiVdwuQOgHYwwqZTQDVjGzUhOLYIvH9JdvMi6Tw6uPTIIl/exec?phone=${phoneInput.value}&content=${contentInput.value}`
+
+    fetch(endPoint, {
+        method: "POST"
+    }).then(() => {
+        alert('Gửi yêu cầu thành công')
+    })
+    .catch((error: any) => {
+        alert('Có lỗi khi thực thi API:' + error)
+    })
+}
 </script>
 
 <style lang="scss" scoped>
