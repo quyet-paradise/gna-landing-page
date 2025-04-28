@@ -93,7 +93,11 @@
 
         <h3>7. Liên hệ</h3>
         <ul>
-            <li><b>Hotline,Zalo:</b> +84 33 2937600</li>
+            <li><b>Hotline, Zalo:</b></li>
+            <ul>
+                <li>0865077247: Liên hệ tư vấn - báo giá thi công nội thất & đèn LED</li>
+                <li>0947931247: Liên hệ bộ phận phân phối đại lí cấp 1 đèn LED</li>
+            </ul>
             <li><b>Email:</b> chuyenthicongdenled247@gmail.com</li>
             <li>Liên hệ ngay hôm nay để nhận tư vấn miễn phí và báo giá chi tiết!</li>
         </ul>

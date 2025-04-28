@@ -4,7 +4,14 @@
             <div class="footer__left">
                 <h2 class="company-name">ThicongdenLED247</h2>
                 <div class="subtitle">Mang đến giải pháp toàn diện, tiết kiệm và thẩm mỹ cho mọi không gian</div>
-                <div class="hotline"><b>Hotline / Zalo:</b> +84 33 293 7600</div>
+                <div class="hotline">
+                    <p><b>Hotline / Zalo:</b></p>
+                    <ul>
+                        <li>0865077247: Liên hệ tư vấn - báo giá thi công nội thất & đèn LED</li>
+                        <li>0947931247: Liên hệ bộ phận phân phối đại lí cấp 1 đèn LED</li>
+                    </ul>
+                </div>
+                
                 <div class="email"><b>Email:</b> chuyenthicongdenled247@gmail.com</div>
 
                 <div class="contact">
@@ -16,7 +23,7 @@
                         <img src="@/assets/images/ico/ico-email.svg" alt="email">
                     </a>
 
-                    <a href="tel:+84332937600" class="contact--item phone">
+                    <a href="tel:+84865077247" class="contact--item phone">
                         <img src="@/assets/images/ico/ico-phone.svg" alt="phone">
                     </a>
                 </div>

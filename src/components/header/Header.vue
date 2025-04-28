@@ -22,7 +22,7 @@
                     <img src="@/assets/images/ico/ico-email.svg" alt="email">
                 </a>
 
-                <a class="header__contact--item" href="tel:+84332937600">
+                <a class="header__contact--item" href="tel:+84865077247">
                     <img src="@/assets/images/ico/ico-phone.svg" alt="phone">
                 </a>
             </div>
