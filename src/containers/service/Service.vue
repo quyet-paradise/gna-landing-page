@@ -122,5 +122,39 @@ const goToDetail = (path: string) => {
             }
         }
     }
+
+    @media only screen and (min-width: 576px) and (max-width: 992px) {
+        padding: 16px 20px;
+
+        &--title {
+            line-height: 1.2;
+        }
+        
+        &--content {
+            line-height: 1.2;
+            flex-direction: column;
+
+            &--left {
+                width: 100%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        padding: 16px 10px;
+
+        &--title {
+            line-height: 1.2;
+        }
+
+        &--content {
+            line-height: 1.2;
+            flex-direction: column;
+
+            &--left {
+                width: 100%;
+            }
+        }
+    }
 }
 </style>

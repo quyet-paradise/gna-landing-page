@@ -69,5 +69,21 @@ import projectsData from '@/data/project-data'
             }
         }
     }
+
+    @media only screen and (min-width: 576px) and (max-width: 992px) {
+        padding: 16px 20px;
+
+        &--list {
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        padding: 16px 10px;
+
+        &--list {
+            justify-content: center;
+        }
+    }
 }
 </style>

@@ -170,5 +170,20 @@ const submitForm = () => {
             }
         }
     }
+
+    @media only screen and (max-width: 576px) {
+        &--close {
+            width: auto;
+            gap: 4px;
+
+            .title {
+                font-size: 13px;
+            }
+        }
+
+        &--open {
+            width: 300px;
+        }
+    }
 }
 </style>

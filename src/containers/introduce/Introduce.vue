@@ -104,5 +104,21 @@
             }
         }
     }
+
+    @media only screen and (min-width: 576px) and (max-width: 992px) {
+        padding: 16px 20px;
+    }
+
+    @media only screen and (max-width: 576px) {
+        padding: 16px 10px;
+
+        &--content {
+            &__img {
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
 }
 </style>

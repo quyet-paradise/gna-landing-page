@@ -189,5 +189,30 @@ const goToDetail = (path: any) => {
         text-align: center;
         margin-top: 32px;
     }
+
+    @media only screen and (min-width: 576px) and (max-width: 992px) {
+        padding: 16px 20px 200px 20px;
+
+        .footer {
+            flex-direction: column;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        padding: 16px 10px 200px 10px;
+
+        .footer {
+            flex-direction: column;
+
+            &__center {
+                .address-map {
+                    width: 100%;
+                    iframe {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
 </style>

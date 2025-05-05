@@ -112,5 +112,29 @@ const submitForm = () => {
             }
         }
     }
+
+    @media only screen and (min-width: 576px) and (max-width: 992px) {
+        padding: 32px 20px;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    @media only screen and (max-width: 576px) {
+        padding: 32px 10px;
+        flex-direction: column;
+        gap: 32px;
+
+        &--text {
+            line-height: 1.2;
+        }
+
+        &--form {
+            width: 100%;
+
+            &__input {
+                width: 100%;
+            }
+        }
+    }
 }
 </style>

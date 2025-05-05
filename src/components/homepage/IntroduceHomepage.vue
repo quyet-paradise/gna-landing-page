@@ -122,5 +122,45 @@
             }
         }
     }
+
+    @media only screen and (min-width: 576px) and (max-width: 992px) {
+        padding: 0 20px;
+        gap: 16px;
+
+        &--content {
+            flex-direction: column-reverse;
+
+            .image {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        padding: 0 10px;
+        gap: 16px;
+
+        &--content {
+            flex-direction: column-reverse;
+
+            .image {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
 }
 </style>
