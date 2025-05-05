@@ -126,5 +126,32 @@ const goToDetail = (path: any) => {
             }
         }
     }
+
+    @media only screen and (min-width: 576px) and (max-width: 992px) {
+        padding: 16px 20px;
+
+        &--list {
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        padding: 16px 10px;
+
+        &--title {
+            .heading {
+                font-size: 24px;
+            }
+        }
+
+        &--list {
+            justify-content: center;
+
+            &--item {
+                width: 100%;
+                max-width: 380px;
+            }
+        }
+    }
 }
 </style>

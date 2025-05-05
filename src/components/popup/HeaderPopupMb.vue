@@ -66,7 +66,7 @@ watch(() => props.visible, (newVal: boolean) => {
     width: 100vw;
     height: 100vh;
     z-index: 100;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: var(--dls-white-color);
