@@ -3,8 +3,8 @@
         <div class="left-support--zalo">
             <div class="left-support--zalo__fill"></div>
             <div class="left-support--zalo__circle">
-                <a href="https://zalo.me/0865077247" target="_blank">
-                    <img src="@/assets/images/ico/ico-zalo.png" alt="https://zalo.me/0865077247">
+                <a href="https://zalo.me/0947931247" target="_blank">
+                    <img src="@/assets/images/ico/ico-zalo.png" alt="https://zalo.me/0947931247">
                 </a>
             </div>
         </div>

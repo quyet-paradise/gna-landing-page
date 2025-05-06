@@ -288,7 +288,7 @@ export const servicesData: any = [
     },
     {
         id: SERVICE_TYPES.TRON_GOI,
-        name: 'Dịch vụ trọn gói thi công - thiết kế từ nội thất - ánh sáng',
+        name: 'Dịch vụ trọn gói thi công - thiết kế nội thất - ánh sáng',
         url: PATH.TRON_GOI_SERVICE_DETAIL,
         led_types: []
     },
