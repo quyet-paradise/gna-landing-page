@@ -6,10 +6,8 @@
                 <div class="subtitle">Mang đến giải pháp toàn diện, tiết kiệm và thẩm mỹ cho mọi không gian</div>
                 <div class="hotline">
                     <p><b>Hotline / Zalo:</b></p>
-                    <ul>
-                        <li>0865077247: Liên hệ tư vấn - báo giá thi công nội thất & đèn LED</li>
-                        <li>0947931247: Liên hệ bộ phận phân phối đại lí cấp 1 đèn LED</li>
-                    </ul>
+                    <p><b>0865077247:</b> Liên hệ tư vấn - báo giá thi công nội thất & đèn LED</p>
+                    <p><b>0947931247:</b> Liên hệ bộ phận phân phối đại lí cấp 1 đèn LED</p>
                 </div>
                 
                 <div class="email"><b>Email:</b> chuyenthicongdenled247@gmail.com</div>

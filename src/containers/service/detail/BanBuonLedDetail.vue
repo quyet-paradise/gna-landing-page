@@ -17,12 +17,21 @@
         <hr />
 
         <p><b>➡️ Tải ngay catalog & bảng giá chi tiết (Excel)</b> để tham khảo mẫu mã và chính sách giá:<br />
-            📥 <a href="#">Link tải bảng giá xưởng đèn LED</a></p>
+            📥 <a href="javascript:void(0)" @click="downloadFile">Link tải bảng giá xưởng đèn LED</a></p>
         <p>Nhận bảng giá cập nhật hàng tháng và ưu đãi đặc biệt cho đơn hàng số lượng lớn!</p>
     </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const downloadFile = () => {
+    const a = document.createElement("a")
+    a.href = '/cataloge/cataloge-den-led-247.xlsx'
+    a.download = 'cataloge-den-led-247'
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+}
+</script>
 
 <style lang="scss" scoped>
 @import url('@/styles/service/service.scss');
