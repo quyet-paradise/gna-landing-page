@@ -101,6 +101,7 @@ const partnersList = [
 
     @media only screen and (max-width: 576px) {
         padding: 16px 10px;
+        gap: 16px;
 
         &--title {
             .heading {
@@ -109,8 +110,10 @@ const partnersList = [
         }
 
         &--list {
+            gap: 16px;
+
             &--item {
-                max-width: 100%;
+                height: 50px;
             }
         }
     }
