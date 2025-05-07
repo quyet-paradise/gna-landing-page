@@ -107,6 +107,10 @@ import projectsData from '@/data/project-data'
 
         &--list {
             justify-content: center;
+
+            &--item {
+                width: 160px;
+            }
         }
     }
 }

@@ -174,10 +174,15 @@ const whyUsContentList: any = [
 
         &--content {
             justify-content: center;
+            gap: 16px;
 
             &--item {
-                width: 100%;
-                max-width: 400px;
+                width: 160px;
+                padding: 10px;
+
+                .title {
+                    line-height: 1.1;
+                }
             }
         }
     }

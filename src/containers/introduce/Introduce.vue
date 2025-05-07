@@ -46,7 +46,9 @@
                 </ol>
 
                 <p>Hàng trăm đối tác lớn nhỏ đã tin tưởng và hợp tác với chúng tôi, tạo nên những công trình chiếu sáng ấn tượng, bền bỉ và giàu tính thẩm mỹ. <b>ThicongdenLED247</b> luôn xem sự hài lòng của Quý khách là thước đo thành công, và cam kết đồng hành cùng bạn trên mọi hành trình tỏa sáng.</p>
-                <p>☎️ <b>Liên hệ ngay: +84 33 293 7600</b></p>
+                <p>☎️ <b>Liên hệ ngay:</b></p>
+                <p><b>0865077247:</b> Liên hệ tư vấn - báo giá thi công nội thất & đèn LED</p>
+                <p><b>0947931247:</b> Liên hệ bộ phận phân phối đại lí cấp 1 đèn LED</p>
                 <p>Chúng tôi rất hân hạnh được phục vụ và kiến tạo không gian lung linh cho bạn!</p>
             </div>
             
