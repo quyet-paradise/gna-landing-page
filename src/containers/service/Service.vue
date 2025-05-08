@@ -7,7 +7,16 @@
                 <div v-for="service in servicesData" :key="service?.id">
                     <h3 @click="goToDetail(service?.url)">{{ service?.name || '' }}</h3>
                     <div v-for="ledType in service?.led_types" :key="ledType?.id" class="item" :class="{ active: ledType?.id === currentLedTypeId }" @click="setLedsList(ledType)">
-                        {{ ledType?.name }}
+                        <div class="item--name">{{ ledType?.name }}</div>
+
+                        <!-- just see in mobile -->
+                        <div v-if="ledType?.id === currentLedTypeId" class="item--mb-list">
+                            <div v-for="(item, index) in currentLedsList" :key="index" class="item--mb-list--item">
+                                <img :src="item?.image" alt="thicongdenLED247">
+                                <div class="name">{{ item?.name }}</div>
+                            </div>
+                        </div>
+                        <!-- just see in mobile -->
                     </div>
                 </div>
             </div>
@@ -86,11 +95,19 @@ const goToDetail = (path: string) => {
                 border-bottom: 1px solid var(--dls-divider-color);
 
                 &:hover {
-                    color: var(--dls-primary-color);
+                    .item--name {
+                        color: var(--dls-primary-color);
+                    }
                 }
 
                 &.active {
-                    color: var(--dls-third-color);
+                    .item--name {
+                        color: var(--dls-third-color);
+                    }                    
+                }
+
+                &--mb-list {
+                    display: none;
                 }
             }
         }
@@ -136,6 +153,31 @@ const goToDetail = (path: string) => {
 
             &--left {
                 width: 100%;
+
+                .item {
+                    &--mb-list {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 8px;
+                        padding: 16px 0;
+
+                        &--item {
+                            width: 150px;
+
+                            img {
+                                width: 100%;
+                            }
+
+                            .name {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &--right {
+                display: none;
             }
         }
     }
@@ -153,6 +195,31 @@ const goToDetail = (path: string) => {
 
             &--left {
                 width: 100%;
+
+                .item {
+                    &--mb-list {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 8px;
+                        padding: 16px 0;
+
+                        &--item {
+                            width: 150px;
+
+                            img {
+                                width: 100%;
+                            }
+
+                            .name {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &--right {
+                display: none;
             }
         }
     }

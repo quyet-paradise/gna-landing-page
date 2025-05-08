@@ -5,6 +5,7 @@ const Service = () => import('@/containers/service/Service.vue')
 const Introduce = () => import('@/containers/introduce/Introduce.vue')
 const Project = () => import('@/containers/project/Project.vue')
 const Contact = () => import('@/containers/contact/Contact.vue')
+const Article = () => import('@/containers/article/Article.vue')
 const SanVuonService = () => import('@/containers/featured_service/SanVuonService.vue')
 const NoiThatService = () => import('@/containers/featured_service/NoiThatService.vue')
 const BienQuangCaoService = () => import('@/containers/featured_service/BienQuangCaoService.vue')
@@ -46,6 +47,12 @@ const routes = [
         name: ROUTE_NAME.CONTACT, 
         component: Contact,
         meta: { title: ` ⊹ ${ROUTE_NAME.CONTACT}` }
+    },
+    {
+        path: PATH.ARTICLE, 
+        name: ROUTE_NAME.ARTICLE, 
+        component: Article,
+        meta: { title: ` ⊹ ${ROUTE_NAME.ARTICLE}` }
     },
     {
         path: PATH.SAN_VUON_SERVICE, 
