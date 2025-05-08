@@ -10,7 +10,7 @@
                 <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.INTRODUCE)">GIỚI THIỆU</a>
                 <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.SERVICE)">DỊCH VỤ</a>
                 <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.PROJECT)">DỰ ÁN</a>
-                <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.CONTACT)">LIÊN HỆ</a>
+                <a class="header__menubar--item" href="javascript:void(0)" @click="goToPage(PATH.ARTICLE)">BÀI VIẾT</a>
             </div>
 
             <div class="header__contact">

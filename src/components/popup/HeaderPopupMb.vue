@@ -5,7 +5,7 @@
             <a class="popup-mb--nav--item" href="javascript:void(0)" @click="goToPage(PATH.INTRODUCE)">GIỚI THIỆU</a>
             <a class="popup-mb--nav--item" href="javascript:void(0)" @click="goToPage(PATH.SERVICE)">DỊCH VỤ</a>
             <a class="popup-mb--nav--item" href="javascript:void(0)" @click="goToPage(PATH.PROJECT)">DỰ ÁN</a>
-            <a class="popup-mb--nav--item" href="javascript:void(0)" @click="goToPage(PATH.CONTACT)">LIÊN HỆ</a>
+            <a class="popup-mb--nav--item" href="javascript:void(0)" @click="goToPage(PATH.ARTICLE)">BÀI VIẾT</a>
         </div>
         <div class="popup-mb--contact">
             <a class="popup-mb--contact--item" target="_blank" href="https://www.facebook.com/profile.php?id=61568493685782">
