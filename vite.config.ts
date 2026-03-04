@@ -2,7 +2,7 @@ import path from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Sitemap from 'vite-plugin-sitemap'
-import routes from '@/router/app-route'
+import routes from './src/router/app-route'
 
 const pathSrc = path.resolve(__dirname, 'src')
 
