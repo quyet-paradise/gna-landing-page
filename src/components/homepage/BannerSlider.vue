@@ -2,10 +2,10 @@
     <div class="banner">
         <Carousel v-bind="galleryConfig" v-model="currentSlide" class="pc">
             <Slide >
-                <img src="/banner/pc/banner-ngoai-that-led.png" alt="banner-ngoai-that-led" class="gallery-image" />
+                <img src="/banner/pc/banner-ngoai-that-led.jpg" alt="banner-ngoai-that-led" class="gallery-image" />
             </Slide>
             <Slide >
-                <img src="/banner/pc/banner-noi-that-led.png" alt="banner-noi-that-led" class="gallery-image" />
+                <img src="/banner/pc/banner-noi-that-led.jpg" alt="banner-noi-that-led" class="gallery-image" />
             </Slide>
 
             <template #addons>
@@ -16,10 +16,10 @@
 
         <Carousel v-bind="galleryConfig" v-model="currentSlide" class="mobile">
             <Slide >
-                <img src="/banner/mobile/banner-ngoai-that-led.png" alt="banner-ngoai-that-led" class="gallery-image" />
+                <img src="/banner/mobile/banner-ngoai-that-led.jpg" alt="banner-ngoai-that-led" class="gallery-image" />
             </Slide>
             <Slide >
-                <img src="/banner/mobile/banner-noi-that-led.png" alt="banner-noi-that-led" class="gallery-image" />
+                <img src="/banner/mobile/banner-noi-that-led.jpg" alt="banner-noi-that-led" class="gallery-image" />
             </Slide>
 
             <template #addons>
